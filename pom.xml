@@ -19,14 +19,10 @@
   xmlns="http://maven.apache.org/POM/4.0.0"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <parent>
-    <groupId>org.apache.commons</groupId>
-    <artifactId>commons-parent</artifactId>
-    <version>39</version>
-  </parent>
   <modelVersion>4.0.0</modelVersion>
+  <groupId>org.clojars.bensu</groupId>
   <artifactId>commons-text</artifactId>
-  <version>0.1-SNAPSHOT-BENSU-0</version>
+  <version>0.1-SNAPSHOT-0</version>
   <name>Apache Commons Text</name>
 
   <inceptionYear>2014</inceptionYear>
@@ -98,6 +94,12 @@
       <id>clojars</id>
       <name>Clojars repository</name>
       <url>https://clojars.org/repo</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
     </repository>
   </distributionManagement>
 
