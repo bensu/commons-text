@@ -94,11 +94,11 @@
   </dependencies>
 
   <distributionManagement>
-    <site>
-      <id>apache.website</id>
-      <name>Apache Commons Site</name>
-      <url>scm:svn:https://svn.apache.org/repos/infra/websites/production/commons/content/sandbox/commons-text/</url>
-    </site>
+    <repository>
+      <id>clojars</id>
+      <name>Clojars repository</name>
+      <url>https://clojars.org/repo</url>
+    </repository>
   </distributionManagement>
 
   <properties>
